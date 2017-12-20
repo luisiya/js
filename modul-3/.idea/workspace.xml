@@ -20,7 +20,7 @@
       <file leaf-file-name="module-2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../modul-2/js/module-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="-540">
               <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
               <folding />
             </state>
@@ -30,8 +30,8 @@
       <file leaf-file-name="module-3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../modul-3/js/module-3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="500">
+              <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="module-4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../modul-4/js/module-4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="648">
+              <caret line="42" column="80" lean-forward="false" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../modul-3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="540">
+              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -77,9 +77,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/../../modul-3/css/style.css" />
+        <option value="$PROJECT_DIR$/../modul-4/index.html" />
         <option value="$PROJECT_DIR$/../../modul-3/index.html" />
         <option value="$PROJECT_DIR$/../../modul-3/js/module-3.js" />
-        <option value="$PROJECT_DIR$/../modul-4/index.html" />
         <option value="$PROJECT_DIR$/../modul-4/js/module-4.js" />
       </list>
     </option>
@@ -194,12 +194,12 @@
       <updated>1512985753444</updated>
       <workItem from="1512985755016" duration="11000" />
       <workItem from="1512985812030" duration="68764000" />
-      <workItem from="1513492873240" duration="14713000" />
+      <workItem from="1513492873240" duration="21942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83488000" />
+    <option name="totallyTimeSpent" value="90717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1639,34 +1639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../modul-2/js/module-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="4" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../modul-3/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../modul-3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1679,18 +1655,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../modul-3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../modul-3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../modul-2/js/module-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../modul-3/js/module-3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="500">
+          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../modul-4/js/module-4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="648">
+          <caret line="42" column="80" lean-forward="false" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
           <folding />
         </state>
       </provider>

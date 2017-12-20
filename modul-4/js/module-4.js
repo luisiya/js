@@ -20,8 +20,13 @@ console.log(addKeyboardLayout(alphabet));
 function getRandCharInRow(row) {
     var totalArr = addKeyboardLayout(alphabet);
     var randomElement = Math.floor(Math.random() * totalArr[row - 1].length);
+    if (randomElement !== 1) {
 
-    console.log(`For row ${row} random element is ${totalArr[row - 1][randomElement]}`);
+        console.log(`For row ${row} random element is ${totalArr[row - 1][randomElement]}`);
+    }
+    else {
+        console.log(`For row ${row} random element is ${totalArr[row - 1][randomElement - 1]}`);
+    }
 }
 console.log(getRandCharInRow(1));
 
@@ -31,7 +36,12 @@ function getRandCharInAlph() {
     var totalArr = resultArr[0].concat(resultArr[1], resultArr[2]);
     var randomElement = Math.floor(Math.random() * totalArr.length);
 
-    console.log(`For alphabet random element is ${totalArr[randomElement]}`);
+    if (randomElement !== 1) {
+        console.log(`For alphabet random element is ${totalArr[randomElement]}`);
+    }
+    else{
+        console.log(`For alphabet random element is ${totalArr[randomElement - 1]}`)
+    }
 }
 console.log(getRandCharInAlph());
 
