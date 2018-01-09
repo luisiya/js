@@ -40,7 +40,7 @@
       <file leaf-file-name="module-4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../modul-4/js/module-4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="270">
               <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
@@ -162,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../modul-4/js/module-4.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../English-learning" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="jsx.switch.disabled" value="true" />
@@ -194,12 +194,12 @@
       <updated>1512985753444</updated>
       <workItem from="1512985755016" duration="11000" />
       <workItem from="1512985812030" duration="68764000" />
-      <workItem from="1513492873240" duration="22069000" />
+      <workItem from="1513492873240" duration="22189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90844000" />
+    <option name="totallyTimeSpent" value="90964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1689,7 +1689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../modul-4/js/module-4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="270">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding />
         </state>
