@@ -27,4 +27,3 @@ newObject.createLayout = function () {
     }
 }
 newObject.createLayout();
-console.log(newObject);
