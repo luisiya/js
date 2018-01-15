@@ -1,0 +1,33 @@
+*{
+      margin:0;
+      padding:0;
+}
+
+
+#inputField{
+      font-size:3rem;
+      padding-button:40px;
+      color:white;
+      background-color: black;
+      padding:220px;
+      width:100%;
+      margin-bottom: 50px;
+}
+body{
+      background-color: grey;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap
+
+}
+div{
+      background-color:white;
+      width: 55px;
+      height: 50px;
+      border:solid 2px red;
+      margin: 0 20px 20px 0px;
+      display: inline-block;
+     }
+
+
+
