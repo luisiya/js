@@ -162,6 +162,7 @@ function Checking() {
             start.style.visibility = "visible";
             start.innerHTML = "ERROR!";
             start.style.color = "red";
+            start.removeAttribute("onclick");
             inputField.textContent = inputField.textContent.slice(0, -1);
             errors++;
         }
@@ -171,12 +172,14 @@ function Checking() {
             start.style.visibility = "visible";
             start.innerHTML = `You've done ${errors} errors `;
             start.style.color = "red";
+            start.removeAttribute("onclick");
 
         }
         else if (counter === arrayTask.length){
             start.style.visibility = "visible";
             start.innerHTML = `Super! No mistakes at all! `;
             start.style.color = "red";
+            start.removeAttribute("onclick");
         }
       return errors;
 }
