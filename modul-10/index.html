@@ -10,22 +10,27 @@
 </head>
 <body>
 <div class="container">
-  <div class = "timer">
-      <a id = "start" href="#" onClick="gameType();">START</a>
-      <span class="seconds"></span>
-      <span id="highScore"></span><span id = "bestResult">THE BEST: </span><span id="js-output"></span>
-   </div>
-    <p id = "user"></p>
-    <p id = "taskText"></p>
+    <div class="timer">
+        <a id="start" href="#" onClick="gameTypeStart();">START</a>
+        <span class="seconds"></span>
+        <span id="highScore"></span><span id="bestResult">THE BEST: </span><span id="js-output"></span>
+        <div id="inputLength">
+            Please, write a number (between 1 and 30):
+            <input type="number" id="inputNumber" name="quantity" min="1" max="30">
+            <button class="inputButton" value="NEXT" onClick="gameType();">NEXT</button>
+        </div>
+    </div>
+    <p id="user"></p>
+    <p id="taskText"></p>
     <p id="inputField" type="text"></p>
 
-<div id="row-container"></div>
-<label for="inputTest">
-<div id="test" class="slideThree">
-    <input type="checkbox" value="None" id="inputTest" name="check" checked/>
-    <label id = "whiteLabel" for="inputTest"></label>
-    <span>Sound</span>
-</div></div>
+    <div id="row-container"></div>
+    <label for="soundSwitch">
+        <div id="test" class="slideThree">
+            <input type="checkbox" value="None" id="soundSwitch" name="check" checked/>
+            <label id="whiteLabel" for="soundSwitch"></label>
+            <span>Sound</span>
+        </div></div>
 </label>
 <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/C.mp3" data-note="do"></audio>
 <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/D.mp3" data-note="re"></audio>
@@ -36,10 +41,13 @@
 <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/B.mp3" data-note="si"></audio>
 
 <script type="text/template" id="row-tpl">
-    <div id = 'row<%- rowid %>'>
-        <% for(let i=0; i < data.length; i++){ %>
-    <button id='<%- data[i] %>' data-note='<%- note[i] %>'><%- data[i] %></button>
-        <%}; %></div>
+    <div id="keyboard">
+        <div id='row<%- rowid %>'>
+            <% for(let i=0; i < data.length; i++){ %>
+            <button id='<%- data[i] %>' data-note='<%- note[i] %>'><%- data[i] %></button>
+            <%}; %>
+        </div>
+    </div>
 </script>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
 </div>
