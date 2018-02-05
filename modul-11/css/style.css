@@ -1,0 +1,40 @@
+*{
+      margin:0;
+      padding:0;
+}
+
+
+.button{
+      display: inline-block;
+      border-radius: 8px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin-top:10%;
+      margin-left:2%;
+      box-shadow: black 4px 4px 10px ;
+}
+
+.button:hover{
+      font-size:32px;
+}
+
+#inputLine, #inputLine2{
+      font-size:30px;
+      margin-left:250px;
+}
+#result{
+      font-size:30px;
+      margin-left:300px;
+}
+select{
+      margin-left:300px;
+      font-size:28px;
+
+}
