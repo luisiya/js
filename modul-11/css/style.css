@@ -29,12 +29,20 @@
       font-size:30px;
       margin-left:250px;
 }
-#result{
-      font-size:30px;
+#inputLine2 {
+      margin-left:320px;
+}
+#titleInput{
+      font-size:36px;
       margin-left:300px;
+      color:darkmagenta;
 }
 select{
       margin-left:300px;
       font-size:28px;
 
+}
+#nameInput, #scoreInput{
+      margin-top:10px;
+      font-size:30px;
 }
