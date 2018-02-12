@@ -1,0 +1,41 @@
+{
+  "name": "gulp-starter-kit",
+  "version": "1.0.2",
+  "description": "## Использование",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axZerk/gulp-starter-kit.git"
+  },
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axZerk/gulp-starter-kit/issues"
+  },
+  "homepage": "https://github.com/axZerk/gulp-starter-kit#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {}
+}
