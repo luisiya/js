@@ -5,6 +5,7 @@ const tel = document.getElementById("tel");
 let allFields = {};
 
 function validate() {
+    result.textContent = "";
     if (firstname.value === null || firstname.value === "" || lastname.value === null || lastname.value === "" || tel.value === null || tel.value === ""){
         alert(`You should fill all three of these fields!`);
     }
@@ -38,7 +39,7 @@ function checkTel(inputTel){
 
 function checkFirstName(inputname){
 
-    let reg = /^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$/;
+    let reg = /^[a-zA-Z][a-zA-Z\.]{1,20}$/;
     let replaceReg = /[()-\s]/g;
     let validateName = (reg, inputname) => reg.test(inputname);
     let clearName = inputname.replace(replaceReg, "");
@@ -48,10 +49,9 @@ function checkFirstName(inputname){
     result_2.textContent = `SUCCESS: ${Object.keys(allFields)[0]} - passed validation`;
     result_2.setAttribute("style", "font-weight: bold; color: green");
 
-
     if (validateName(reg, clearName) === false){
         allFields.firstname = validateName(reg, clearName);
-        alert(`The name  must be at least 2 letters long!`);
+        alert(`The name  must be without numbers and at least 2 letters long!`);
         result_2.setAttribute("style", "font-weight: bold; color: red");
         result_2.textContent = `ERROR: ${Object.keys(allFields)[0]} - failed validation`;
     }
@@ -72,7 +72,7 @@ function checkLastName(inputname){
 
     if (validateName(reg, clearName) === false){
         allFields.lastname = validateName(reg, clearName);
-        alert(`The last name  must be at least 2 letters long!`);
+        alert(`The last name  must be without numbers and at least 2 letters long!`);
         result_3.setAttribute("style", "font-weight: bold; color: red");
         result_3.textContent = `ERROR: ${Object.keys(allFields)[1]} - failed validation`;
     }
