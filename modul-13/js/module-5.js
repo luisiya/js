@@ -39,7 +39,7 @@ function checkTel(inputTel){
 
 function checkFirstName(inputname){
 
-    let reg = /^[a-zA-Z][a-zA-Z\.]{1,20}$/;
+    let reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ']+[a-zA-Zа-яА-ЯёЁ']?$/;
     let replaceReg = /[()-\s]/g;
     let validateName = (reg, inputname) => reg.test(inputname);
     let clearName = inputname.replace(replaceReg, "");
@@ -60,7 +60,7 @@ function checkFirstName(inputname){
 
 function checkLastName(inputname){
 
-    let reg = /^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$/;
+    let reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ' ]+[a-zA-Zа-яА-ЯёЁ']?$/;
     let replaceReg = /[()-\s]/g;
     let validateName = (reg, inputname) => reg.test(inputname);
     let clearName = inputname.replace(replaceReg, "");
