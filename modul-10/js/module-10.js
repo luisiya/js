@@ -115,6 +115,7 @@ function gameType() {
              if (inputField.textContent.length >= lengthText) {
                 if (arrayTask === inputField.textContent) {
                     clearInterval(seconds_timer_id);
+
                     let result = Math.round(lengthText / seconds * 100) / 100;
                     highScore.style.visibility = "visible";
                     highScore.innerHTML = `Your result is <b>${result} correct letters per second`;

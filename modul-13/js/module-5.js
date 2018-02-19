@@ -4,7 +4,7 @@ const tel = document.getElementById("tel");
 
 let allFields = {};
 
-function validate() {
+function validate() {https://luisiya.github.io/js/modul-13/index.html
     result.textContent = "";
     if (firstname.value === null || firstname.value === "" || lastname.value === null || lastname.value === "" || tel.value === null || tel.value === ""){
         alert(`You should fill all three of these fields!`);
