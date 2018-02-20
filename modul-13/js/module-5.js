@@ -1,8 +1,8 @@
-let firstname = document.getElementById("first_name");
+const firstname = document.getElementById("first_name");
 const lastname = document.getElementById("last_name");
 const tel = document.getElementById("tel");
 
-let allFields = {};
+const allFields = {};
 
 function validate() {https://luisiya.github.io/js/modul-13/index.html
     result.textContent = "";
@@ -18,11 +18,11 @@ function validate() {https://luisiya.github.io/js/modul-13/index.html
 
 function checkTel(inputTel){
 
-    let reg = /^\+?3?8?0{1}[1-9]{1}\d{8}$/;
-    let replaceReg = /[()-\s]/g;
-    let validateTel = (reg, inputTel) => reg.test(inputTel);
-    let clearPhone = inputTel.replace(replaceReg, "");
-    let result_1 = document.createElement("li");
+    const reg = /^\+?3?8?0{1}[1-9]{1}\d{8}$/;
+    const replaceReg = /[()-\s]/g;
+    const validateTel = (reg, inputTel) => reg.test(inputTel);
+    const clearPhone = inputTel.replace(replaceReg, "");
+    const result_1 = document.createElement("li");
     result.appendChild(result_1);
     allFields.tel = validateTel(reg, clearPhone);
     result_1.textContent = `SUCCESS: ${Object.keys(allFields)[2]} - passed validation`;
@@ -39,11 +39,11 @@ function checkTel(inputTel){
 
 function checkFirstName(inputname){
 
-    let reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ']+[a-zA-Zа-яА-ЯёЁ']?$/;
-    let replaceReg = /[()-\s]/g;
-    let validateName = (reg, inputname) => reg.test(inputname);
-    let clearName = inputname.replace(replaceReg, "");
-    let result_2 = document.createElement("li");
+    const reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ']+[a-zA-Zа-яА-ЯёЁ']?$/;
+    const replaceReg = /[()-\s]/g;
+    const validateName = (reg, inputname) => reg.test(inputname);
+    const clearName = inputname.replace(replaceReg, "");
+    const result_2 = document.createElement("li");
     result.appendChild(result_2);
     allFields.firstname = validateName(reg, clearName);
     result_2.textContent = `SUCCESS: ${Object.keys(allFields)[0]} - passed validation`;
@@ -60,11 +60,11 @@ function checkFirstName(inputname){
 
 function checkLastName(inputname){
 
-    let reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ' ]+[a-zA-Zа-яА-ЯёЁ']?$/;
-    let replaceReg = /[()-\s]/g;
-    let validateName = (reg, inputname) => reg.test(inputname);
-    let clearName = inputname.replace(replaceReg, "");
-    let result_3 = document.createElement("li");
+    const reg = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ' ]+[a-zA-Zа-яА-ЯёЁ']?$/;
+    const replaceReg = /[()-\s]/g;
+    const validateName = (reg, inputname) => reg.test(inputname);
+    const clearName = inputname.replace(replaceReg, "");
+    const result_3 = document.createElement("li");
     result.appendChild(result_3);
     allFields.lastname = validateName(reg, clearName);
     result_3.setAttribute("style", "font-weight: bold; color: green");
