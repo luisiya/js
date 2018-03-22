@@ -16,6 +16,7 @@ class Timer {
         console.log(`${countDays} days left until NY-2019`);
     }
     start(){
+
         this.startTime = seconds;
         stopWatch.startTime = this.startTime;
         let seconds_timer_id = setInterval(function () {
@@ -34,9 +35,9 @@ class Timer {
                 elementIsClicked = false;
                }
         }, 1000);
+
     };
     stop(){
-
           elementIsClicked = true;
           this.getTime();
         }
